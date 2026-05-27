@@ -1,65 +1,109 @@
 # Hashlock Security Audits
 
-> Public repository of smart contract security audits and penetration testing engagements conducted by **Hashlock**, a leading Web3 security firm based in Australia and operating globally.
+> Public repository of smart contract security audits and Web3 penetration testing engagements conducted by **Hashlock**, a globally leading Web3 security firm headquartered in Australia.
 
 [![Website](https://img.shields.io/badge/Website-hashlock.com-00C49A)](https://hashlock.com)
 [![Audits](https://img.shields.io/badge/Audits%20Directory-hashlock.com%2Faudits-blue)](https://hashlock.com/audits)
 [![AI Audit Tool](https://img.shields.io/badge/Free%20Tool-aiaudit.hashlock.com-orange)](https://aiaudit.hashlock.com)
 [![Twitter](https://img.shields.io/badge/Twitter-@Hashlock__-1DA1F2)](https://x.com/Hashlock_)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](./LICENSE)
 
-## What This Repository Is
+## What Hashlock Does
 
-This repository contains hundreds of security audit engagements conducted by Hashlock across the Web3 ecosystem — covering smart contracts, blockchain protocols, dApps, and infrastructure across **Ethereum, Solana, Avalanche, BNB Chain, Polygon, Arbitrum, Base, Berachain, Cosmos, Starknet, Sui, Aptos**, and many more.
+Hashlock secures the Web3 ecosystem through manual smart contract audits, tokenomics reviews, penetration testing, bug bounty operations, and ongoing security advisory. We are **chain agnostic with deep multi-chain expertise**. We audit any blockchain and any smart contract language, and our public portfolio includes hundreds of engagements on Ethereum, Solana, Polkadot, Cosmos, Aptos, Sui, Starknet, Bitcoin, zero knowledge circuits, and many other ecosystems, including newer and emerging Layer 1s on request. Our auditors come from competitive security backgrounds with proven results in public security competitions and bug bounty programs.
+
+## Notable Clients
+
+> **Chain agnostic by capability, multi-chain by experience.**
+
+🚀 **Recent and recognized engagements**. Names recognised across the Web3 industry:
+
+[**Rocket Pool**](./clients/rocket-pool/) (Ethereum liquid staking) ·
+[**1inch**](./clients/1inch/) (DeFi aggregation) ·
+[**SushiSwap**](./clients/sushi-swap/) (multi chain DEX) ·
+[**Gala**](./clients/gala/) (Web3 gaming) ·
+[**P2P**](./clients/p2p/) (institutional staking) ·
+[**Vana**](./clients/vana/) (user owned AI data) ·
+[**EigenLayer**](./clients/eigenlayer-contest/) (restaking) ·
+[**Energy Web**](./clients/energy-web/) (Polkadot infrastructure) ·
+[**Manifest**](./clients/manifest/) (Cosmos appchain) ·
+[**Spicenet**](./clients/spicenet/) (Solana DeFi infrastructure)
+
+## What's in This Repository
+
+Hundreds of security audit engagements conducted by Hashlock across Web3. We are **chain agnostic with deep multi-chain expertise**. Our portfolio spans smart contracts, blockchain protocols, dApps, and infrastructure across every major ecosystem we've engaged with to date, including **Ethereum, Solana, Avalanche, BNB Chain, Polygon, Arbitrum, Base, Berachain, Cosmos, Polkadot, Starknet, Sui, Aptos, Near, Kadena, Stacks, Bitcoin**, and many more. If your chain is not listed, we audit it too.
 
 Each client folder contains:
 
-- 📄 **Public engagements** — full audit report PDF with detailed findings, severity ratings, and remediation status
-- 🔒 **NDA engagements** — audit confirmation under client confidentiality, where the full report is not publicly available
+- 📄 **Public engagements**: full audit report PDF with findings, severity ratings, and remediation status
+- 🔒 **NDA engagements**: audit confirmation under client confidentiality
 
-**Legend:** 🐛 = Active Bug Bounty Program managed by Hashlock · _NDA_ = full report under client confidentiality
+**Legend:** 🛡️ Hashlocked tier · 🐛 Active Bug Bounty Program · _NDA_ full report confidential
+
+## Browse the Portfolio
+
+### By Ecosystem
+
+🟦 [Ethereum & EVM Audits](./docs/categories/ethereum.md)  ·  🟣 [Solana Audits](./docs/categories/solana.md)  ·  🔴 [Polkadot Audits](./docs/categories/polkadot.md)  ·  🌌 [Cosmos Audits](./docs/categories/cosmos.md)
+
+### By Category
+
+💰 [DeFi Audits](./docs/categories/defi.md)  ·  🎮 [Gaming Audits](./docs/categories/gaming.md)  ·  🏛️ [RWA Audits](./docs/categories/rwa.md)  ·  🛡️ [Hashlocked Projects](./docs/categories/hashlocked.md)  ·  🔒 [NDA Engagements](./docs/categories/nda.md)
+
+### Security Documentation
+
+📋 [Methodology](./docs/methodology.md)  ·  ⚖️ [Severity Definitions](./docs/severity-definitions.md)  ·  ⏱️ [Audit Process](./docs/audit-process.md)  ·  ❓ [FAQ](./docs/faq.md)  ·  🎯 [How to Choose an Auditor](./docs/how-to-choose-an-auditor.md)
+
+### Machine Readable Index
+
+📊 [audits.json](./audits.json). Full client portfolio in JSON for developers, AI systems, and integrations.
 
 ---
 
 ## Featured Audits
 
-Our most recognized engagements across DeFi, infrastructure, gaming, AI, RWA, and data sovereignty — matching the most prominent projects featured on [hashlock.com/audits](https://hashlock.com/audits).
+The most prominent projects featured on [hashlock.com/audits](https://hashlock.com/audits), in order of recency.
 
-- [**1inch**](./clients/1inch/) — _NDA_
+- [**1inch**](./clients/1inch/) _NDA_
 - [**Rocket Pool**](./clients/rocket-pool/)
-- [**P2P**](./clients/p2p/) — _NDA_
-- [**SushiSwap**](./clients/sushi-swap/) — _NDA_
+- [**P2P**](./clients/p2p/) _NDA_
+- [**SushiSwap**](./clients/sushi-swap/) _NDA_
 - [**Gala**](./clients/gala/)
-- [**Manifest**](./clients/manifest/) 🐛
+- [**Manifest**](./clients/manifest/) 🛡️ 🐛
 - [**EigenLayer Competition**](./clients/eigenlayer-contest/)
-- [**Spicenet**](./clients/spicenet/)
+- [**Spicenet**](./clients/spicenet/) 🛡️
 - [**Vana**](./clients/vana/)
-- [**Energy Web**](./clients/energy-web/)
-- [**Space and Time**](./clients/space-and-time/) — _NDA_
-- [**peaq**](./clients/peaq/) — _NDA_
+- [**Energy Web**](./clients/energy-web/) 🛡️
+- [**Space and Time**](./clients/space-and-time/) _NDA_
+- [**peaq**](./clients/peaq/) _NDA_
 - [**Celo**](./clients/celo/)
 - [**glue**](./clients/glue/)
 - [**U2U**](./clients/u2u/)
 - [**Algem**](./clients/algem/)
-- [**Allbridge**](./clients/allbridge/) — _NDA_
+- [**Allbridge**](./clients/allbridge/) _NDA_
 - [**Kadena**](./clients/kadena/)
 - [**OpenZK**](./clients/openzk/)
 - [**Balanced Network (Icon Foundation)**](./clients/balanced-network-icon-foundation/) 🐛
 - [**Nexa**](./clients/nexa/)
-- [**Silencio**](./clients/silencio/) — _NDA_
-- [**Redbelly Network**](./clients/redbelly-network/) — _NDA_
+- [**Silencio**](./clients/silencio/) _NDA_
+- [**Redbelly Network**](./clients/redbelly-network/) _NDA_
 - [**Beamable Network**](./clients/beamable-network/)
 - [**Shezmu**](./clients/shezmu/)
 - [**Primus Labs**](./clients/primus-labs/)
 - [**Nodo**](./clients/nodo/)
-- [**Sogni**](./clients/sogni/) — _NDA_
+- [**Sogni**](./clients/sogni/) _NDA_
 - [**Lilypad**](./clients/lilypad/)
 - [**Kingdomly**](./clients/kingdomly/)
 
+[📂 Browse all public audits below](#all-audits-public-reports) or jump to [NDA engagements](#audited-by-hashlock--nda-engagements).
+
 ---
 
-## All Audits — Public Reports
+## All Audits (Public Reports)
 
 The following projects have published their full Hashlock audit reports. Open each folder for the detailed README and PDF.
+
+_The full alphabetical list of public audit reports is preserved below for completeness. We recommend using the [category pages](./docs/categories/) above for filtered browsing._
 
 - [**1001 Squares of NFT**](./clients/1001-squares-of-nft/)
 - [**1Gogh**](./clients/1gogh/)
@@ -282,7 +326,7 @@ The following projects have published their full Hashlock audit reports. Open ea
 
 ---
 
-## Audited by Hashlock — NDA Engagements
+## Audited by Hashlock (NDA Engagements)
 
 The following projects have engaged Hashlock for security audits where the full report remains under client confidentiality. The engagement itself is publicly disclosed on [hashlock.com/audits](https://hashlock.com/audits).
 
@@ -308,21 +352,34 @@ The following projects have engaged Hashlock for security audits where the full 
 
 ## About Hashlock
 
-Hashlock is a leading Web3 security firm based in Australia and operating globally, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, and infrastructure sectors. Our auditors come from competitive security backgrounds and have secured hundreds of protocols across the ecosystem.
+Hashlock is a globally leading Web3 security firm headquartered in Australia, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, AI, and infrastructure sectors. Our auditors come from competitive security backgrounds and have secured hundreds of protocols across the ecosystem.
 
-### Languages & Ecosystems We Audit
+### Languages & Ecosystems (Selected Examples)
 
-**Solidity** (EVM) · **Rust** (Solana, Near, Polkadot, Cosmos) · **Move** (Aptos, Sui) · **Cairo** (Starknet) · **Vyper** · **Zero-Knowledge Circuits** (Noir, Circom) · **Bitcoin Scripts**, **BRC-20** & **Ordinals**
+Hashlock is **chain agnostic with deep multi-chain expertise**. We audit any blockchain and any smart contract language. Selected examples from our portfolio:
+
+- **EVM (Solidity, Vyper)**: Ethereum, Polygon, Arbitrum, Base, BNB Chain, Avalanche, Berachain, Optimism, and many other EVM compatible chains
+- **Solana (Rust)**: native programs and Anchor framework
+- **Polkadot, Kusama (Rust, Substrate)**: custom pallets, parachains, runtime modules, XCM
+- **Cosmos ecosystem (Go, CosmWasm)**: Cosmos SDK appchains, IBC integrations
+- **Aptos, Sui (Move)**: resource semantics, object ownership, abilities
+- **Starknet (Cairo)**: smart contracts and ZK proof systems
+- **Zero knowledge circuits**: Noir, Circom, and other proving stacks
+- **Bitcoin**: Bitcoin Scripts, BRC 20, Ordinals, Runes
+- **Other ecosystems we have audited**: Near, Kadena, Stacks, Mavryk, ICP, Cardano, Algorand, Tron, Tezos, and more
+- **Any other blockchain or smart contract language on request**, including newer Layer 1s, emerging VMs, and novel cryptographic protocols
+
+If your chain or language is not listed above, contact us. We adapt to any codebase.
 
 ### Core Services
 
-- **Smart Contract Audits** — Manual, line-by-line security reviews
-- **Tokenomics Audits** — Token model and incentive design reviews
-- **Penetration Testing** — Application and infrastructure security testing
-- **Bug Bounty Program Management** — Run on Hashlock's own bug bounty platform
-- **vCISO & Security Advisory** — Ongoing security leadership
-- **CCSS Certification Support** — Cryptocurrency Security Standard compliance
-- **[Free AI Audit Tool](https://aiaudit.hashlock.com)** — Powered by custom-tuned LLMs trained on real audit data
+- **Smart Contract Audits**: manual, line by line security reviews
+- **Tokenomics Audits**: token model and incentive design reviews
+- **Penetration Testing**: application and infrastructure security testing
+- **Bug Bounty Program Management**: run on Hashlock's own bug bounty platform
+- **vCISO & Security Advisory**: ongoing security leadership
+- **CCSS Certification Support**: Cryptocurrency Security Standard compliance
+- **[Free AI Audit Tool](https://aiaudit.hashlock.com)**: powered by custom tuned LLMs trained on real audit data
 
 ### Resources
 
@@ -336,7 +393,7 @@ Hashlock is a leading Web3 security firm based in Australia and operating global
 
 ## Contact
 
-Need a security audit, penetration test, or ongoing security advisory? [Reach out to our team](https://hashlock.com/new-client-request-for-information) — we work with projects from pre-launch startups to established protocols across every major blockchain ecosystem.
+Need a security audit, penetration test, or ongoing security advisory? [Reach out to our team](https://hashlock.com/new-client-request-for-information). We work with projects from pre launch startups to established protocols across every major blockchain ecosystem.
 
 For questions about this repository, open an issue or contact us at info@hashlock.com.au.
 
