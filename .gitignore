@@ -1,0 +1,9 @@
+credentials.json
+token.json
+.cache/
+__pycache__/
+*.pyc
+.env
+.env.local
+.DS_Store
+Thumbs.db
