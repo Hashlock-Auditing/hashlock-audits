@@ -1,0 +1,55 @@
+# Hashlock NDA Audit Engagements
+
+> **Chain agnostic by capability, multi-chain by experience.**
+
+> Hashlock conducts security audits for major protocols under non disclosure agreement, where the engagement is publicly disclosed (with client consent) but findings remain confidential.
+
+All engagements below are publicly disclosed on [hashlock.com/audits](https://hashlock.com/audits) with client consent. Audit findings are held under NDA.
+
+## Audits (26)
+
+- [**1inch**](../../clients/1inch/) _NDA_
+- [**Allbridge**](../../clients/allbridge/) _NDA_
+- [**Archie**](../../clients/archie/) _NDA_
+- [**Aveforge**](../../clients/aveforge/) _NDA_
+- [**FVC**](../../clients/fvc/) _NDA_
+- [**Lotus Finance**](../../clients/lotus-finance/) _NDA_
+- [**Memez.GG**](../../clients/memez-gg/) _NDA_
+- [**Midnight**](../../clients/midnight/) _NDA_
+- [**Onyx**](../../clients/onyx/) _NDA_
+- [**P2P**](../../clients/p2p/) _NDA_
+- [**Parasail**](../../clients/parasail/) _NDA_
+- [**Passphrase**](../../clients/passphrase/) _NDA_
+- [**peaq**](../../clients/peaq/) _NDA_
+- [**Potomac Capital Limited**](../../clients/potomac-capital-limited/) _NDA_
+- [**Rakurai**](../../clients/rakurai/) _NDA_
+- [**Redbelly Network**](../../clients/redbelly-network/) _NDA_
+- [**RPS Labs**](../../clients/rps/) _NDA_
+- [**Silencio**](../../clients/silencio/) _NDA_
+- [**Sogni**](../../clients/sogni/) _NDA_
+- [**Space and Time**](../../clients/space-and-time/) _NDA_
+- [**SushiSwap**](../../clients/sushi-swap/) _NDA_
+- [**Tecnodes Network**](../../clients/tecnodes-network/) _NDA_
+- [**Topos**](../../clients/topos/) _NDA_
+- [**World Mobile**](../../clients/world-mobile/) _NDA_
+- [**Zapme**](../../clients/zapme/) _NDA_
+- [**Zenchain**](../../clients/zenchain/) _NDA_
+
+---
+
+## About Hashlock
+
+Hashlock is a globally leading Web3 security firm headquartered in Australia, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, AI, and infrastructure sectors. Our auditors come from competitive security backgrounds and have secured hundreds of protocols across the ecosystem.
+
+**Chain agnostic with deep multi-chain expertise.** We audit any blockchain and any smart contract language. The category above is one slice of our portfolio. We have audited engagements across Ethereum, Solana, Polkadot, Cosmos, Aptos, Sui, Starknet, Bitcoin, ZK protocols, and many other ecosystems including newer Layer 1s on request.
+
+## Resources
+
+- 🛡️ [Audit Methodology](../methodology.md)
+- 📋 [Severity Definitions](../severity-definitions.md)
+- ⏱️ [Audit Process Timeline](../audit-process.md)
+- ❓ [FAQ](../faq.md)
+- 🎯 [How to Choose an Auditor](../how-to-choose-an-auditor.md)
+- 📚 [All Audits (Main Index)](../../README.md)
+- 🌐 [hashlock.com/audits](https://hashlock.com/audits)
+- 📩 [Request an Audit](https://hashlock.com/new-client-request-for-information)
