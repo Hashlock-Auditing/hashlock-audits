@@ -1,4 +1,4 @@
-# P2P — Audited by Hashlock
+# P2P: Audited by Hashlock
 
 **Client:** P2P.org
 **Engagement Type:** Security Audit
@@ -9,9 +9,9 @@
 
 ## About P2P
 
-**P2P.org** is one of the world's largest institutional non-custodial staking providers, supporting **25+ blockchain networks** including Ethereum, Polkadot, Cosmos, Solana, Avalanche, Near, and many more. With billions of dollars in staked assets under management, P2P delivers validator infrastructure, staking-as-a-service, and DeFi staking products to institutions, exchanges, and retail clients worldwide.
+**P2P.org** is one of the world's largest institutional non custodial staking providers, supporting **25+ blockchain networks** including Ethereum, Polkadot, Cosmos, Solana, Avalanche, Near, and many more. With billions of dollars in staked assets under management, P2P delivers validator infrastructure, staking as a service, and DeFi staking products to institutions, exchanges, and retail clients worldwide.
 
-P2P is recognized as a trusted infrastructure partner across the Web3 industry, providing high-uptime validator services with deep technical expertise across consensus mechanisms and validator economics.
+P2P is recognized as a trusted infrastructure partner across the Web3 industry, providing high uptime validator services with deep technical expertise across consensus mechanisms and validator economics.
 
 ## The Engagement
 
@@ -23,10 +23,9 @@ For verification of this engagement or to discuss similar audit work, please con
 
 ## About Hashlock
 
-Hashlock is a leading Web3 security firm based in Australia and operating globally, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, and infrastructure sectors. Our auditors come from competitive security backgrounds and have secured hundreds of protocols across the ecosystem.
+Hashlock is a globally leading Web3 security firm headquartered in Australia, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, AI, and infrastructure sectors. Our auditors come from competitive security backgrounds and have secured hundreds of protocols across the ecosystem.
 
-**Languages & Ecosystems Audited:**
-Solidity (EVM) · Rust (Solana, Near, Polkadot, Cosmos) · Move (Aptos, Sui) · Cairo (Starknet) · Vyper · Zero-Knowledge Circuits · Bitcoin Scripts & BRC-20
+**Chain agnostic with deep multi-chain expertise.** Hashlock audits any blockchain and any smart contract language. Recent engagements span Ethereum (Solidity, Vyper), Solana (Rust), Polkadot (Substrate), Cosmos (Go, CosmWasm), Aptos and Sui (Move), Starknet (Cairo), zero knowledge circuits, Bitcoin Scripts and BRC 20, plus many other ecosystems including newer Layer 1s on request.
 
 🌐 **Website:** [hashlock.com](https://hashlock.com)
 🤖 **Free AI Audit Tool:** [aiaudit.hashlock.com](https://aiaudit.hashlock.com)
@@ -35,4 +34,4 @@ Solidity (EVM) · Rust (Solana, Near, Polkadot, Cosmos) · Move (Aptos, Sui) · 
 
 ---
 
-_The engagement between Hashlock and P2P is publicly disclosed with client consent. Audit findings are held under non-disclosure agreement and are not reproduced in this repository._
+_The engagement between Hashlock and P2P is publicly disclosed with client consent. Audit findings are held under non disclosure agreement and are not reproduced in this repository._
