@@ -1,9 +1,9 @@
-# Gala — Hashlock Security Audit
+# Gala: Hashlock Security Audit
 
 **Client:** Gala Games
 **Audit Date:** November 2025
 **Project Type:** Gaming & Entertainment Infrastructure
-**Network:** GalaChain (L1) · Ethereum
+**Network:** GalaChain (L1), Ethereum
 **Language:** TypeScript (GalaChain SDK)
 **Report Type:** Final Report v1
 **Security Rating:** ✅ **Secure**
@@ -13,20 +13,20 @@
 
 ## About Gala
 
-Gala is building a decentralized entertainment ecosystem spanning gaming, music, film, and blockchain technology. Their flagship platform, **GalaChain**, is a Layer 1 blockchain optimized for entertainment use cases, offering fast transaction speeds, scalability, and energy efficiency. The ecosystem includes games like **Champions Arena** and **Spider Tanks**, **Gala Music** for blockchain-based music distribution, and **Gala Film** for decentralized cinema. Gala empowers creators and players by providing real ownership and control over their digital assets.
+Gala is building a decentralized entertainment ecosystem spanning gaming, music, film, and blockchain technology. Their flagship platform, **GalaChain**, is a Layer 1 blockchain optimized for entertainment use cases, offering fast transaction speeds, scalability, and energy efficiency. The ecosystem includes games like **Champions Arena** and **Spider Tanks**, **Gala Music** for blockchain based music distribution, and **Gala Film** for decentralized cinema. Gala empowers creators and players by providing real ownership and control over their digital assets.
 
 ## Audit Scope
 
-Hashlock audited the GalaChain SDK and supporting smart contracts through comprehensive manual line-by-line analysis supported by software-assisted testing.
+Hashlock audited the GalaChain SDK and supporting smart contracts through comprehensive manual line by line analysis supported by software assisted testing.
 
 **Modules Audited:**
 
 | # | Module | Description |
 |---|--------|-------------|
 | 1 | `chain-cli` | Typed CLI commands for managing GalaChain networks, config loading, credential selection |
-| 2 | `chain-client` | High-level client API for GalaChain contracts, identity management, signing |
-| 3 | `chain-connect` | Bridges browser, backend, and wallets to GalaChain (EVM-style providers) |
-| 4 | `chaincode` | On-chain business logic for tokens and loans, authorization, ledger persistence |
+| 2 | `chain-client` | High level client API for GalaChain contracts, identity management, signing |
+| 3 | `chain-connect` | Bridges browser, backend, and wallets to GalaChain (EVM style providers) |
+| 4 | `chaincode` | On chain business logic for tokens and loans, authorization, ledger persistence |
 | 5 | `chain-api` | HTTP endpoints mapping to chaincode with DTO validation and structured responses |
 
 **Repository:** [github.com/GalaChain/sdk](https://github.com/GalaChain/sdk)
@@ -49,10 +49,10 @@ Hashlock audited the GalaChain SDK and supporting smart contracts through compre
 - **[H-01]** Missing validation of allowance grants in `mintToken` enabling theft of allowances
 - **[H-02]** Fungible token mint allowance persisting after authority removal
 - **[H-03]** NFT allowances persisting after ownership transfer
-- **[H-04]** Duplicate allowances enabling double-spending
+- **[H-04]** Duplicate allowances enabling double spending
 - **[H-05]** Missing caller validation allowing allowance bypass during minting
-- **[H-06]** Composite-key namespace collision between sale fulfillments and swap fills
-- **[H-07]** Bridge-out recipient accepted as unvalidated string across multiple chains
+- **[H-06]** Composite key namespace collision between sale fulfillments and swap fills
+- **[H-07]** Bridge out recipient accepted as unvalidated string across multiple chains
 
 ## Full Audit Report
 
@@ -64,7 +64,9 @@ Hashlock audited the GalaChain SDK and supporting smart contracts through compre
 
 ## About Hashlock
 
-Hashlock is a leading Web3 security firm based in Australia and operating globally, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, and infrastructure sectors. Our auditors come from competitive security backgrounds and have secured hundreds of protocols across the ecosystem.
+Hashlock is a globally leading Web3 security firm headquartered in Australia, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, AI, and infrastructure sectors. Our auditors come from competitive security backgrounds and have secured hundreds of protocols across the ecosystem.
+
+**Chain agnostic with deep multi-chain expertise.** Hashlock audits any blockchain and any smart contract language. Recent engagements span Ethereum (Solidity, Vyper), Solana (Rust), Polkadot (Substrate), Cosmos (Go, CosmWasm), Aptos and Sui (Move), Starknet (Cairo), zero knowledge circuits, Bitcoin Scripts and BRC 20, plus many other ecosystems including newer Layer 1s on request.
 
 🌐 **Website:** [hashlock.com](https://hashlock.com)
 🤖 **Free AI Audit Tool:** [aiaudit.hashlock.com](https://aiaudit.hashlock.com)
