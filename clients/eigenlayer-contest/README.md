@@ -1,4 +1,4 @@
-# EigenLayer Competition — Hashlock Security Audit
+# EigenLayer Competition: Hashlock Security Audit
 
 **Client:** EigenLayer
 **Engagement Date:** March 2025
@@ -14,7 +14,7 @@
 
 ## About EigenLayer
 
-As a restaking platform, **EigenLayer** allows stakers to deposit assets and delegate stake to operators. Operators register for **AVSs** (Autonomous Verifiable Services) — external platforms that leverage this stake to secure offchain processes. The protocol introduces a new economic primitive to Ethereum: pooled security, enabling new services to bootstrap cryptoeconomic guarantees without launching their own validator set.
+As a restaking platform, **EigenLayer** allows stakers to deposit assets and delegate stake to operators. Operators register for **AVSs** (Autonomous Verifiable Services), external platforms that leverage this stake to secure offchain processes. The protocol introduces a new economic primitive to Ethereum: pooled security, enabling new services to bootstrap cryptoeconomic guarantees without launching their own validator set.
 
 ## The Engagement
 
@@ -22,11 +22,11 @@ EigenLayer hosted a security competition on **Cantina** in March 2025, covering 
 
 **Hashlock participated in this competition with our auditor [@RODION](https://cantina.xyz/), who can be found on the public leaderboard.**
 
-This represents a different format from Hashlock's standard private audit engagements — competitions involve multiple independent auditors working concurrently to identify vulnerabilities, with submissions judged on uniqueness, severity, and quality. Hashlock's participation reflects our auditors' competitive security expertise and standing within the Web3 security community.
+This represents a different format from Hashlock's standard private audit engagements. Competitions involve multiple independent auditors working concurrently to identify vulnerabilities, with submissions judged on uniqueness, severity, and quality. Hashlock's participation reflects our auditors' competitive security expertise and standing within the Web3 security community.
 
 ## Why Competition Audits Matter
 
-Competition audits (also known as crowdsourced security contests) are increasingly used by top-tier protocols as a complement to traditional audits. They:
+Competition audits (also known as crowdsourced security contests) are increasingly used by top tier protocols as a complement to traditional audits. They:
 
 - Bring together dozens of independent security researchers in parallel
 - Surface vulnerabilities that may be missed by a single audit team
@@ -44,7 +44,9 @@ Hashlock's auditors actively participate in these competitions to keep our metho
 
 ## About Hashlock
 
-Hashlock is a leading Web3 security firm based in Australia and operating globally, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, and infrastructure sectors. Our auditors come from competitive security backgrounds — including top placements in public contests and bug bounty programs — and have secured hundreds of protocols across the ecosystem.
+Hashlock is a globally leading Web3 security firm headquartered in Australia, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, AI, and infrastructure sectors. Our auditors come from competitive security backgrounds, including top placements in public contests and bug bounty programs, and have secured hundreds of protocols across the ecosystem.
+
+**Chain agnostic with deep multi-chain expertise.** Hashlock audits any blockchain and any smart contract language. Recent engagements span Ethereum (Solidity, Vyper), Solana (Rust), Polkadot (Substrate), Cosmos (Go, CosmWasm), Aptos and Sui (Move), Starknet (Cairo), zero knowledge circuits, Bitcoin Scripts and BRC 20, plus many other ecosystems including newer Layer 1s on request.
 
 🌐 **Website:** [hashlock.com](https://hashlock.com)
 🤖 **Free AI Audit Tool:** [aiaudit.hashlock.com](https://aiaudit.hashlock.com)
