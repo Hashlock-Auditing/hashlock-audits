@@ -1,12 +1,12 @@
-# Manifest — Hashlock Security Audit
+# Manifest: Hashlock Security Audit
 
 **Client:** The Lifted Initiative (Manifest Ledger)
-**Audit Date:** December 2024 (with CosmWasm follow-up February 2025)
+**Audit Date:** December 2024 (with CosmWasm follow up February 2025)
 **Project Type:** Cosmos Appchain & DePIN Ecosystem
 **Network:** Cosmos
 **Language:** Go (`go1.22.5`)
 **Report Type:** Final Report v2
-**Security Rating:** 🛡️ **Hashlocked** (highest tier — with active Bug Bounty)
+**Security Rating:** 🛡️ **Hashlocked** (highest tier, with active Bug Bounty)
 
 🔗 **Project Website:** [liftedinit.org](https://liftedinit.org)
 🔗 **Hashlock Audit Page:** [hashlock.com/audits/manifest](https://hashlock.com/audits/manifest)
@@ -19,7 +19,7 @@ The **Manifest Network**, built on the Cosmos SDK, is a blockchain tailored for 
 
 ## Audit Scope
 
-Hashlock audited the Go codebase of the Manifest Ledger through comprehensive manual line-by-line analysis supported by software-assisted testing.
+Hashlock audited the Go codebase of the Manifest Ledger through comprehensive manual line by line analysis supported by software assisted testing.
 
 **Engagements:**
 
@@ -39,16 +39,16 @@ Hashlock audited the Go codebase of the Manifest Ledger through comprehensive ma
 
 ### Findings Detail
 
-- **[L-01]** `BurnHeldBalance` not validating `MsgBurnHeldBalance` request via `Validate()` — Resolved
-- **[L-02]** Wasm flags defined in `initWasmFlags` but not added to command line queries — Resolved
-- **[Q-01]** Spelling error in filename `quierier.go` (should be `querier.go`) — Resolved
-- **[Q-02]** Incorrect `srvCfg.MinGasPrices` denom set to `0stake` — Resolved
+- **[L-01]** `BurnHeldBalance` not validating `MsgBurnHeldBalance` request via `Validate()`. Resolved.
+- **[L-02]** Wasm flags defined in `initWasmFlags` but not added to command line queries. Resolved.
+- **[Q-01]** Spelling error in filename `quierier.go` (should be `querier.go`). Resolved.
+- **[Q-02]** Incorrect `srvCfg.MinGasPrices` denom set to `0stake`. Resolved.
 
 The low finding count and clean QA reflect strong code quality and adherence to best practices throughout the Manifest codebase.
 
 ## Security Rating: Hashlocked 🛡️
 
-The **Hashlocked** rating is Hashlock's highest tier, reserved for projects that ensure ongoing security via bug bounty programs or on-chain monitoring technology. **Manifest operates an active Bug Bounty Program managed by Hashlock**, ensuring continuous security beyond the point-in-time audit. 🐛
+The **Hashlocked** rating is Hashlock's highest tier, reserved for projects that ensure ongoing security via bug bounty programs or on chain monitoring technology. **Manifest operates an active Bug Bounty Program managed by Hashlock**, ensuring continuous security beyond the point in time audit. 🐛
 
 ## Full Audit Report
 
@@ -60,7 +60,9 @@ The **Hashlocked** rating is Hashlock's highest tier, reserved for projects that
 
 ## About Hashlock
 
-Hashlock is a leading Web3 security firm based in Australia and operating globally, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, and infrastructure sectors. Our auditors come from competitive security backgrounds and have secured hundreds of protocols across the ecosystem.
+Hashlock is a globally leading Web3 security firm headquartered in Australia, specializing in smart contract audits and blockchain security across the DeFi, gaming, RWA, AI, and infrastructure sectors. Our auditors come from competitive security backgrounds and have secured hundreds of protocols across the ecosystem.
+
+**Chain agnostic with deep multi-chain expertise.** Hashlock audits any blockchain and any smart contract language. Recent engagements span Ethereum (Solidity, Vyper), Solana (Rust), Polkadot (Substrate), Cosmos (Go, CosmWasm), Aptos and Sui (Move), Starknet (Cairo), zero knowledge circuits, Bitcoin Scripts and BRC 20, plus many other ecosystems including newer Layer 1s on request.
 
 🌐 **Website:** [hashlock.com](https://hashlock.com)
 🤖 **Free AI Audit Tool:** [aiaudit.hashlock.com](https://aiaudit.hashlock.com)
