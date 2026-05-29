@@ -1,13 +1,12 @@
 # Celo: Hashlock Security Audit
 
 **Client:** Celo (cLabs)
-**Audit Date:** October 2025 (with multiple subsequent engagements through 2026)
 **Project Type:** Layer 2, Payments, Stablecoins, DeFi Infrastructure
 **Network:** Ethereum (Celo L2)
 **Language:** Solidity (`0.8.11`)
 **Token:** $CELO
-**Report Type:** Final Report v2
-**Security Rating:** ✅ **Secure**
+**Engagements:** 3 public audit reports (2025 to 2026)
+**Latest Security Rating:** ✅ **Secure**
 
 🔗 **Project Website:** [celo.org](https://celo.org/)
 🔗 **Hashlock Audit Page:** [hashlock.com/audits/celo](https://hashlock.com/audits/celo)
@@ -16,11 +15,21 @@
 
 Celo is a purpose driven, Ethereum anchored Layer 2 blockchain designed for fast, low cost, and carbon aware payments and decentralized finance worldwide. Its architecture runs on the OP Stack, uses EigenDA for scalable data availability, and supports zkEVM based verified execution via Succinct SP1, together enabling one second block times and sub cent fees. Users can pay gas in stablecoins such as USDT, USDC, and cUSD, giving the network a practical advantage for real world financial activity. Celo allocates a share of transaction fees to carbon offsets, positioning itself as infrastructure for financial inclusion and sustainable onchain growth. The network has grown to more than 250,000 daily active users.
 
-## Audit Scope
+## Engagement History
 
-Hashlock audited the Solidity code of Celo's StakedCelo system through comprehensive manual line by line analysis supported by software assisted testing. This README reflects the StakedCelo engagement (October 2025).
+Celo is a long term Hashlock client, returning across multiple layers of its stack as the network migrated to an Ethereum Layer 2. Every engagement below is public and rated Secure.
 
-**Contracts Audited:**
+| Report | Date | Scope | Findings (all resolved) | Rating |
+|--------|------|-------|-------------------------|--------|
+| StakedCelo system | Oct 2025 | 7 contracts (`Account`, `DefaultStrategy`, `GroupHealth`, `Managed`, `Manager`, `Pausable`, `SpecificGroupStrategy`) | 1 Medium, 3 Low, 1 Gas, 4 QA | ✅ Secure |
+| Optimism and Superchain (2nd) | Feb 2026 | 42 contracts across the OP Stack (portal, bridges, cross domain messengers, system config) over two protocol versions | 1 Medium, 1 Gas, 4 QA | ✅ Secure |
+| CeloSuperchainConfig (3rd) | Mar 2026 | `CeloSuperchainConfig.sol` (pause propagation, guardian controls) | 1 Gas, 1 QA | ✅ Secure |
+
+Across these engagements Hashlock identified and helped resolve 2 medium, 3 low, 3 gas, and 9 QA findings, all resolved or acknowledged. For a network processing real payments at scale, weaknesses in bridge adjacent logic, configuration controls, or staking contracts can affect the broader ecosystem, so multiple layers of Celo's stack have now been reviewed.
+
+## Primary Audit Scope (StakedCelo system)
+
+The first engagement reviewed Celo's StakedCelo liquid staking system, which coordinates CELO voting across validator groups and mints stCELO.
 
 | # | Contract | Role |
 |---|----------|------|
@@ -35,38 +44,20 @@ Hashlock audited the Solidity code of Celo's StakedCelo system through comprehen
 **Audited Commit Hash:** `a3c350a23ed3aade246a2bb0a93ec53a7607a5be`
 **Fix Review Commit Hash:** `9c85724899f1f0185d9d57bbd8e602e1b6a7f710`
 
-## Audit Findings Summary
+## Notable Findings (all resolved or acknowledged)
 
-| Severity | Count | Status |
-|----------|-------|--------|
-| 🟠 Medium | 1 | ✅ Resolved |
-| 🟡 Low | 3 | ✅ Resolved |
-| ⚡ Gas Optimisation | 1 | ✅ Acknowledged |
-| 📝 QA | 4 | ✅ Resolved / Acknowledged |
+- **[M-01, StakedCelo]** The UUPSUpgradeable contracts lacked a reserved storage gap (`__gap`), which could cause storage collisions in future upgrades. Resolved by adding fixed size storage gaps per the OpenZeppelin UUPS pattern.
+- **[L-02, StakedCelo]** Unrestricted `renounceOwnership()` could permanently remove owner control. Resolved by disabling it.
+- **[L-03, StakedCelo]** Off by one error in `GroupHealth.isGroupMemberElected` could cause an out of bounds revert. Resolved.
+- **[M-01, Superchain]** `OptimismPortal2#finalizeWithdrawalTransactionExternalProof`: with the ETH lockbox enabled on a custom gas token chain, the portal could treat a withdrawal value as both an ERC20 amount and an ETH amount, draining ETH from the lockbox into the portal. Resolved by gating the lockbox flow on the gas token being ETH.
 
-**Total findings:** 9 (all resolved or formally acknowledged)
+## Audit Reports
 
-### Notable Findings
+All reports are published with Celo's consent.
 
-- **[M-01]** The UUPSUpgradeable contracts (`Account.sol`, `DefaultStrategy.sol`, `GroupHealth.sol`, `Manager.sol`, `SpecificGroupStrategy.sol`) lacked a reserved storage gap (`__gap`), which could cause storage collisions in future upgrades. Resolved by adding fixed size storage gaps per the OpenZeppelin UUPS pattern.
-- **[L-01]** Important state changing functions across the system lacked event emissions, making offchain monitoring difficult. Resolved.
-- **[L-02]** Unrestricted `renounceOwnership()` could permanently remove owner control. Resolved by disabling it.
-- **[L-03]** Off by one error in `GroupHealth.isGroupMemberElected` could cause an out of bounds revert. Resolved.
-
-## Multiple Engagements
-
-Celo's collaboration with Hashlock is ongoing, not a one time exercise. Hashlock has completed a series of engagements across Celo's stack, all rated Secure:
-
-- **StakedCelo smart contracts** (October 2025): covered in this report
-- **Optimism, Superchain smart contracts** (February 2026): a 42 contract review across the OP Stack bridge and messaging layer
-- **CeloSuperchainConfig** (March 2026): pause state logic, guardian controls, and upstream configuration propagation across the Superchain
-- **Additional reviews** including validator, epoch, and election logic and the gas sponsored OFT bridge
-
-For a network processing real payments at scale, contract security is foundational. Weaknesses in bridge adjacent logic, configuration controls, or staking contracts can affect the broader ecosystem. Multiple layers of Celo's stack have now been reviewed and rated Secure.
-
-## Full Audit Report
-
-📄 [Read the full audit report (PDF)](./Celo-Smart-Contract-Audit-Report-Final-Report-v2.pdf)
+- 📄 [StakedCelo system](./Celo-Smart-Contract-Audit-Report-Final-Report-v2.pdf)
+- 📄 [Optimism and Superchain (2nd)](./Celo-2nd-Smart-Contract-Audit-Report-Final-Report-v2.pdf)
+- 📄 [CeloSuperchainConfig (3rd)](./Celo-3rd-Smart-Contract-Audit-Report-Final-Report-v1.pdf)
 
 🌐 [View on hashlock.com](https://hashlock.com/audits/celo)
 
@@ -83,4 +74,4 @@ Hashlock is a globally leading Web3 security firm headquartered in Australia, sp
 
 ---
 
-_Audit conducted by Hashlock Pty Ltd. This report is published with the client's consent. For full disclaimers, methodology, and severity definitions, please refer to the complete PDF._
+_Audits conducted by Hashlock Pty Ltd. These reports are published with the client's consent. For full disclaimers, methodology, and severity definitions, please refer to the complete PDFs._

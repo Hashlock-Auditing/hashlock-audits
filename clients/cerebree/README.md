@@ -46,7 +46,7 @@ The presale supports ETH and USDT payments with Chainlink USD conversion and enf
 
 ## Full Audit Report
 
-📄 [Read the full audit report (PDF)](./CeReBree-Smart-Contract-Audit-Report-Final-Report-v2.pdf)
+📄 [Read the full audit report (PDF)](./CeReBree-Smart-Contract-Audit-Report-Final-Report-v2-2.pdf)
 
 🌐 [View on hashlock.com](https://hashlock.com/audits/cerebree)
 

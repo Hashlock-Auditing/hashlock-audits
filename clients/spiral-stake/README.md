@@ -44,7 +44,7 @@ The pool lets users deposit SY collateral to join and receive a position NFT, de
 
 ## Full Audit Report
 
-📄 [Read the full audit report (PDF)](./Spiral-Stake-Smart-Contract-Audit-Report-Final-Report-v2.pdf)
+📄 [Read the full audit report (PDF)](./SpiralStake-Smart-Contract-Audit-Report-Final-Report-v4.pdf)
 
 🌐 [View on hashlock.com](https://hashlock.com/audits/spiral-stake)
 

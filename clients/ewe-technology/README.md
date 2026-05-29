@@ -5,7 +5,7 @@
 **Project Type:** Crypto Wallet, DCA, Cross Chain Bridge, Staking
 **Network:** EVM
 **Language:** Solidity (`^0.8.0`)
-**Report Type:** Final Report v2
+**Engagements:** Smart contract audit and penetration test
 **Security Rating:** ✅ **Secure**
 
 🔗 **Project Website:** [ewetechnology.com](https://ewetechnology.com/)
@@ -13,13 +13,11 @@
 
 ## About ewe technology (Benty Wallet)
 
-Benty is a mobile application that serves as a cryptocurrency wallet. It lets users send, receive, swap, and bridge cryptocurrency across multiple blockchains, with built in staking and transaction tracking directly in the app. ewe technology is the team building these decentralized applications and blockchain solutions, with a focus on secure, scalable platforms that put users in control of their digital assets. The audited smart contracts do not allow developers or third parties to freely transfer funds other than to add liquidity to Uniswap, and feature a dollar cost averaging (DCA) system.
+Benty is a mobile application that serves as a cryptocurrency wallet. It lets users send, receive, swap, and bridge cryptocurrency across multiple blockchains, with built in staking, dollar cost averaging (DCA), and transaction tracking directly in the app. ewe technology is the team building these decentralized applications and blockchain solutions, with a focus on secure, scalable platforms that put users in control of their digital assets. Hashlock reviewed both the onchain contracts (smart contract audit) and the mobile app and API surface (penetration test).
 
-## Audit Scope
+## Smart Contract Audit Scope
 
 Hashlock audited the Solidity code of the Benty project through comprehensive manual line by line analysis supported by software assisted testing.
-
-**Contracts Audited:**
 
 | # | Contract | MD5 Hash | Role |
 |---|----------|----------|------|
@@ -31,7 +29,7 @@ Hashlock audited the Solidity code of the Benty project through comprehensive ma
 | 6 | `StrategyUserManager.sol` | `5ac5a68e27a21d14e8010e9ebf5c1b33` | User strategy management |
 | 7 | `StrategyV11.sol` | `562080a16c807dfdf6d854b9b28a7635` | Strategy execution |
 
-## Audit Findings Summary
+### Smart Contract Findings Summary
 
 | Severity | Count | Status |
 |----------|-------|--------|
@@ -40,13 +38,26 @@ Hashlock audited the Solidity code of the Benty project through comprehensive ma
 | ⚡ Gas Optimisation | 2 | ✅ Resolved |
 | 📝 QA | 2 | ✅ Resolved |
 
-**Total findings:** 7 (all resolved)
-
 The DCA system lets users create and manage recurring purchase plans, with an executor role running strategies, setting fees, and handling withdrawals. The architecture separates management, vault custody, farming, referrals, and strategy execution into dedicated contracts. All findings were resolved before publication.
 
-## Full Audit Report
+## Penetration Test
 
-📄 [Read the full audit report (PDF)](./ewe-technology-Smart-Contract-Audit-Report-Final-Report-v2.pdf)
+Beyond the smart contract audit, Hashlock performed a penetration test of the Benty mobile application and its supporting API, assessing authentication, session handling, data exposure, and the security of the app to backend communication.
+
+| Severity | Count | Status |
+|----------|-------|--------|
+| 🟠 Medium | 3 | ✅ Resolved |
+| 🟡 Low | 3 | ✅ Resolved |
+| 📝 QA | 2 | ✅ Resolved |
+
+All penetration test findings were resolved before publication.
+
+## Audit Reports
+
+All reports are published with the client's consent.
+
+- 📄 [Smart Contract Audit Report](./ewe-technology-Smart-Contract-Audit-Report-Final-Report-v2.pdf)
+- 📄 [Penetration Test Report](./ewe-technology-Penetration-Test-Report-Final-Report.pdf)
 
 🌐 [View on hashlock.com](https://hashlock.com/audits/ewe-technology)
 
@@ -63,4 +74,4 @@ Hashlock is a globally leading Web3 security firm headquartered in Australia, sp
 
 ---
 
-_Audit conducted by Hashlock Pty Ltd. This report is published with the client's consent. For full disclaimers, methodology, and severity definitions, please refer to the complete PDF._
+_Audits conducted by Hashlock Pty Ltd. These reports are published with the client's consent. For full disclaimers, methodology, and severity definitions, please refer to the complete PDFs._

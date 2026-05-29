@@ -1,25 +1,33 @@
 # Shezmu: Hashlock Security Audit
 
 **Client:** Shezmu
-**Audit Date:** October 2024
 **Project Type:** DeFi, Hybrid Collateralized Debt Positions (CDP), NFT and Yield Backed Lending
 **Network:** Ethereum
-**Language:** Solidity (`0.8.17`)
-**Report Type:** Final Report
-**Security Rating:** ✅ **Secure**
+**Language:** Solidity
+**Engagements:** 2 public audit reports (2024 to 2025)
+**Latest Security Rating:** ✅ **Secure**
 
 🔗 **Project Website:** [shezmu.io](https://www.shezmu.io)
 🔗 **Hashlock Audit Page:** [hashlock.com/audits/shezmu](https://hashlock.com/audits/shezmu)
 
 ## About Shezmu
 
-Shezmu introduces a hybrid Collateralized Debt Position (CDP) platform that combines the capabilities of both NFTs and Yield Bearing Tokens. The platform allows users to borrow against both NFTs and Yield Bearing Tokens, providing flexibility and liquidity in the digital asset space. Alongside the core CDP functionality, the project offers a suite of utilities including stablecoin implementations (ShezmuUSD, ShezmuETH, ShezmuBTC), lending vaults, liquidation and auction mechanisms, stability pools, an NFT marketplace, farming, and staking.
+Shezmu introduces a hybrid Collateralized Debt Position (CDP) platform that combines the capabilities of both NFTs and Yield Bearing Tokens. The platform lets users borrow against both NFTs and Yield Bearing Tokens, providing flexibility and liquidity in the digital asset space. Alongside the core CDP functionality, the project offers a suite of utilities including stablecoin implementations (ShezmuUSD, ShezmuETH, ShezmuBTC), lending vaults, liquidation and auction mechanisms, stability pools, an NFT marketplace, farming, and staking.
 
-## Audit Scope
+## Engagement History
 
-Hashlock audited the Solidity code of the Shezmu project through comprehensive manual line by line analysis supported by software assisted testing. All folders were audited at commit hash `b22956a844e1784fb0242159e57e4639fb9d301d`.
+Shezmu returned to Hashlock for a second engagement covering its leveraged ERC20 lending vaults. Both engagements are public and rated Secure.
 
-**Folders Audited:**
+| Report | Date | Scope | Findings (all resolved) | Rating |
+|--------|------|-------|-------------------------|--------|
+| Core platform | Oct 2024 | 8 modules (`Farming`, `Marketplace`, `Oasis` lending and stablecoins, `Oracle`, `Sale`, `Staking`, `Token`, `Utils`) | 6 High, 3 Medium, 7 Low, 2 Gas, 4 QA | ✅ Secure |
+| Leveraged lending (2nd) | Jul 2025 | `ERC20Vault`, `InterestCollector`, `SoulBound`, `AaveStrategy` | 3 High, 6 Medium, 5 Low, 1 Gas, 4 QA | ✅ Secure |
+
+Across both engagements Hashlock identified and helped resolve 9 high, 9 medium, 12 low, 3 gas, and 8 QA findings, all resolved or acknowledged.
+
+## Primary Audit Scope (Core platform)
+
+The first engagement reviewed a broad multi module DeFi system spanning lending, stablecoins, NFT markets, farming, and staking. All folders were audited at commit `b22956a844e1784fb0242159e57e4639fb9d301d`.
 
 | # | Folder | Scope |
 |---|--------|-------|
@@ -32,23 +40,14 @@ Hashlock audited the Solidity code of the Shezmu project through comprehensive m
 | 7 | Token | Token contract logic |
 | 8 | Utils | Shared utility libraries |
 
-## Audit Findings Summary
+The second engagement (July 2025) reviewed the leveraged lending vaults: `ERC20Vault` (leveraged positions with up to 10x multipliers, health factors, liquidations), `InterestCollector`, `SoulBound` (position NFTs), and `AaveStrategy` (yield optimization). Audited at commit `9905f16491672392664d076e252c684b53df1333`, fix review at `8670ba6d501a1fec9fcac495851f3f643aec0843`.
 
-| Severity | Count | Status |
-|----------|-------|--------|
-| 🔴 High | 6 | ✅ Resolved |
-| 🟠 Medium | 3 | ✅ Resolved |
-| 🟡 Low | 7 | ✅ Resolved / Acknowledged |
-| 📝 QA | 4 | ✅ Resolved / Acknowledged |
-| ⚡ Gas Optimisation | 2 | ✅ Acknowledged |
+## Audit Reports
 
-**Total findings:** 22 (all resolved or formally acknowledged)
+All reports are published with Shezmu's consent.
 
-The engagement covered a broad multi module DeFi system spanning lending, stablecoins, NFT markets, and staking. Hashlock identified six high severity vulnerabilities during the initial review, all of which were addressed before publication.
-
-## Full Audit Report
-
-📄 [Read the full audit report (PDF)](./Shezmu-Smart-Contract-Audit-Report-Final-Report.pdf)
+- 📄 [Core platform](./Shezmu-Smart-Contract-Audit-Report-Final-Report.pdf)
+- 📄 [Leveraged lending (2nd)](./Shezmu-2nd-Smart-Contract-Audit-Report-Final-Report-v2.pdf)
 
 🌐 [View on hashlock.com](https://hashlock.com/audits/shezmu)
 
@@ -65,4 +64,4 @@ Hashlock is a globally leading Web3 security firm headquartered in Australia, sp
 
 ---
 
-_Audit conducted by Hashlock Pty Ltd. This report is published with the client's consent. For full disclaimers, methodology, and severity definitions, please refer to the complete PDF._
+_Audits conducted by Hashlock Pty Ltd. These reports are published with the client's consent. For full disclaimers, methodology, and severity definitions, please refer to the complete PDFs._

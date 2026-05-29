@@ -40,7 +40,7 @@ The engagement reviewed a Solana staking system with time weighted reward accoun
 
 ## Full Audit Report
 
-📄 [Read the full audit report (PDF)](./Beamable-Smart-Contract-Audit-Report-Final-Report-v3.pdf)
+📄 [Read the full audit report (PDF)](./Beamable-Network-Smart-Contract-Audit-Report-Final-Report-v4.pdf)
 
 🌐 [View on hashlock.com](https://hashlock.com/audits/beamable-network)
 
