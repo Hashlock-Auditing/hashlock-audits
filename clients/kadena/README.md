@@ -52,6 +52,10 @@ Hashlock audited the Pact code of the Kadena RWA implementation through comprehe
 
 This is one of Hashlock's Pact language engagements, demonstrating capability beyond EVM and into Kadena's native smart contract ecosystem. The audit reviewed a full ERC-3643 compliant tokenization suite with identity verification, claim management, trusted issuer governance, and pluggable compliance rules (max balance, max investors, supply limits). Hashlock identified four high severity vulnerabilities during the initial review, all addressed before publication.
 
+## Confidential Engagement
+
+Hashlock also conducted a smart contract audit of Kadena's "Brale Token" (June 2025), listed on the audit page with a Secure rating. That report is confidential at the client's request, so no findings, scope, or report file from it are reproduced here.
+
 ## Full Audit Report
 
 📄 [Read the full audit report (PDF)](./Kadena-Smart-Contract-Audit-Report-Final-Report-v2.pdf)

@@ -1,0 +1,17 @@
+{
+  "_comment": "Reports that are FINALISED but kept confidential at the client's request (not on the website). The website cannot reveal these, so they are listed here by hand. The README acknowledges the engagement and date WITHOUT any findings, scope, contracts, or commits. Add a slug only for the rare exceptions.",
+  "immersve": [
+    {
+      "type": "Penetration test",
+      "date": "October 2025",
+      "confidential": true
+    }
+  ],
+  "kadena": [
+    {
+      "type": "Smart contract audit (Brale Token)",
+      "date": "June 2025",
+      "confidential": true
+    }
+  ]
+}
