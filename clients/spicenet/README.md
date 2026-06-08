@@ -59,7 +59,7 @@ Hashlock audited the Rust codebase of the Spicenet protocol through comprehensiv
 
 ## Security Rating: Hashlocked 🛡️
 
-The **Hashlocked** rating is Hashlock's highest tier, reserved for projects that ensure ongoing security via bug bounty programs or on chain monitoring technology, going beyond a single point in time audit.
+The **Hashlocked** rating is Hashlock's highest tier, reserved for projects that maintain ongoing security commitments such as bug bounty programs, going beyond a single point in time audit.
 
 ## Full Audit Report
 

@@ -1,8 +1,10 @@
 # 1inch: Audited by Hashlock
 
 **Client:** 1inch Network
-**Engagement Type:** Security Audit
-**Status:** ✅ Audited by Hashlock
+**Engagement:** Smart contract security audit (1inch Aqua)
+**Date:** March 2026
+**Security Rating:** 🛡️ **Hashlocked**
+**Report:** Confidential (not published)
 
 🔗 **Project Website:** [1inch.io](https://1inch.io/)
 🔗 **Hashlock Audit Page:** [hashlock.com/audits/1inch](https://hashlock.com/audits/1inch)
@@ -15,7 +17,7 @@ The 1inch Aggregation Protocol is one of the most widely used DEX aggregators in
 
 ## The Engagement
 
-Hashlock conducted a security audit for **1inch**. The full audit report is held under client confidentiality and is not publicly available at this time.
+Hashlock conducted a smart contract security audit of **1inch Aqua** (March 2026). The engagement is listed on Hashlock's audits directory with a **Hashlocked** rating, Hashlock's highest, reserved for projects with ongoing security commitments. The full report is confidential at the client's request, so no findings, scope, contracts, or report file are reproduced here.
 
 The engagement is publicly disclosed on Hashlock's audits directory: [hashlock.com/audits/1inch](https://hashlock.com/audits/1inch)
 

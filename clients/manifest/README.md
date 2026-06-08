@@ -48,7 +48,7 @@ The low finding count and clean QA reflect strong code quality and adherence to 
 
 ## Security Rating: Hashlocked 🛡️
 
-The **Hashlocked** rating is Hashlock's highest tier, reserved for projects that ensure ongoing security via bug bounty programs or on chain monitoring technology. **Manifest operates an active Bug Bounty Program managed by Hashlock**, ensuring continuous security beyond the point in time audit. 🐛
+The **Hashlocked** rating is Hashlock's highest tier, reserved for projects that maintain ongoing security commitments such as bug bounty programs. **Manifest operates an active Bug Bounty Program managed by Hashlock**, ensuring continuous security beyond the point in time audit. 🐛
 
 ## Full Audit Report
 

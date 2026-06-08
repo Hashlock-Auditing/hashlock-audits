@@ -1,21 +1,23 @@
 # P2P: Audited by Hashlock
 
 **Client:** P2P.org
-**Engagement Type:** Security Audit
-**Status:** ✅ Audited by Hashlock
+**Engagement:** Penetration test
+**Date:** February 2026
+**Security Rating:** ✅ **Secure**
+**Report:** Confidential (not published)
 
 🔗 **Project Website:** [p2p.org](https://p2p.org/)
 🔗 **Hashlock Audit Page:** [hashlock.com/audits/p2p](https://hashlock.com/audits/p2p)
 
 ## About P2P
 
-**P2P.org** is one of the world's largest institutional non custodial staking providers, supporting **25+ blockchain networks** including Ethereum, Polkadot, Cosmos, Solana, Avalanche, Near, and many more. With billions of dollars in staked assets under management, P2P delivers validator infrastructure, staking as a service, and DeFi staking products to institutions, exchanges, and retail clients worldwide.
+**P2P.org** is one of the world's largest institutional non custodial staking providers, supporting **35+ Proof of Stake networks** including Ethereum, Polkadot, Cosmos, Solana, Avalanche, Near, and many more. With billions of dollars in staked assets under management, P2P delivers validator infrastructure, staking as a service, and DeFi staking products to institutions, exchanges, and retail clients worldwide.
 
 P2P is recognized as a trusted infrastructure partner across the Web3 industry, providing high uptime validator services with deep technical expertise across consensus mechanisms and validator economics.
 
 ## The Engagement
 
-Hashlock conducted a security audit for **P2P**, a major institutional staking infrastructure provider. The full audit report is held under client confidentiality and is not publicly available.
+Hashlock conducted a **penetration test** for **P2P** (February 2026). The engagement is listed on Hashlock's audits directory with a **Secure** rating. The full report is confidential at the client's request, so no findings, scope, or report file are reproduced here.
 
 The engagement is publicly disclosed on Hashlock's audits directory: [hashlock.com/audits/p2p](https://hashlock.com/audits/p2p)
 

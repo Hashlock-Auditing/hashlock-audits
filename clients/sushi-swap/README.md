@@ -1,8 +1,10 @@
 # SushiSwap: Audited by Hashlock
 
 **Client:** SushiSwap
-**Engagement Type:** Security Audit
-**Status:** ✅ Audited by Hashlock
+**Engagement:** Smart contract security audit
+**Date:** May 2025
+**Security Rating:** ✅ **Secure**
+**Report:** Confidential (not published)
 
 🔗 **Project Website:** [sushi.com](https://www.sushi.com/)
 🔗 **Hashlock Audit Page:** [hashlock.com/audits/sushi-swap](https://hashlock.com/audits/sushi-swap)
@@ -15,7 +17,7 @@ Since its launch, SushiSwap has been a foundational liquidity layer for the DeFi
 
 ## The Engagement
 
-Hashlock conducted a security audit for **SushiSwap**, one of the most established and widely used decentralized exchanges in Web3. The full audit report is held under client confidentiality and is not publicly available.
+Hashlock conducted a **smart contract security audit** for **SushiSwap** (May 2025). The engagement is listed on Hashlock's audits directory with a **Secure** rating. The full report is confidential at the client's request, so no findings, scope, contracts, or report file are reproduced here.
 
 The engagement is publicly disclosed on Hashlock's audits directory: [hashlock.com/audits/sushi-swap](https://hashlock.com/audits/sushi-swap)
 

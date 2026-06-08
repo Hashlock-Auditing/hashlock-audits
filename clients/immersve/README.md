@@ -4,7 +4,7 @@
 **Project Type:** CeDeFi, Crypto Payments, Mastercard Principal Member
 **Network:** Ethereum (Polygon PoS in the earlier engagement)
 **Language:** Solidity
-**Engagements:** 3 public reports (2023 to 2025)
+**Engagements:** 2 public smart contract audits (2023, 2025) and 1 confidential penetration test (2025)
 **Latest Security Rating:** ✅ **Secure**
 
 🔗 **Project Website:** [immersve.com](https://immersve.com/)
@@ -16,19 +16,22 @@ Immersve, as a principal member of the Mastercard network, uniquely supports bot
 
 ## Engagement History
 
-Immersve is a long term Hashlock client, returning across multiple years and expanding scope from smart contracts to full application penetration testing as the product matured. Every engagement below is public.
+Immersve is a long term Hashlock client, returning across multiple years and expanding scope from smart contracts to full application penetration testing as the product matured.
 
-| Report | Date | Scope | Findings (all resolved) | Rating |
-|--------|------|-------|-------------------------|--------|
-| Smart contract audit | Nov 2023 | `FundsManagerLogic`, `FundsStorageLogic` (Polygon PoS) | 2 Medium, 4 Low, 1 Gas | 🛡️ Hashlocked |
+| Report | Date | Scope | Findings | Rating |
+|--------|------|-------|----------|--------|
+| Smart contract audit (1st) | Nov 2023 | `FundsManagerLogic`, `FundsStorageLogic` (Polygon PoS) | 2 Medium, 4 Low, 1 Gas | 🛡️ Hashlocked |
 | Smart contract audit (2nd) | Mar 2025 | `FundsManagerLogic`, `FundsStorageLogic` (Ethereum) | 8 Medium, 4 Low | ✅ Secure |
-| Penetration test (3rd) | Oct 2025 | Web applications and APIs (full code base) | 3 Medium, 3 Low, 2 QA | ✅ Secure |
 
-Across these engagements Hashlock identified and helped resolve 13 medium, 11 low, 1 gas, and 2 QA findings, all resolved or acknowledged. The 2023 engagement earned Hashlock's **Hashlocked** rating, reserved for projects that maintain ongoing security commitments.
+Across the two public smart contract audits Hashlock identified 10 Medium, 8 Low, and 1 Gas finding. All were resolved, with a single low severity item from the 2025 audit formally acknowledged. The 2023 engagement earned Hashlock's **Hashlocked** rating, reserved for projects that maintain ongoing security commitments.
 
-## Primary Audit Scope (Smart contract audit, 2nd)
+## Confidential Engagement
 
-The most recent smart contract engagement reviewed the CeDeFi payments architecture that bridges onchain funds with the Mastercard settlement network via Circle, using a beacon proxy pattern for per user funds storage.
+Hashlock also conducted a penetration test for Immersve (October 2025). That engagement is listed on Immersve's Hashlock audit page, where the report is marked confidential at the client's request. No findings, scope, or report file from the penetration test are reproduced here.
+
+## Primary Audit Scope (2nd smart contract audit, Ethereum)
+
+The most recent public smart contract engagement reviewed the CeDeFi payments architecture that bridges onchain funds with the Mastercard settlement network via Circle, using a beacon proxy pattern for per user funds storage.
 
 | # | Contract | MD5 Hash | Role |
 |---|----------|----------|------|
@@ -38,13 +41,33 @@ The most recent smart contract engagement reviewed the CeDeFi payments architect
 **Audited Commit Hash:** `5acb8f807c600dede827c7b5baad79a5385e401c`
 **Fix Review Commit Hash:** `25ee3a66bb79bbc4e9b2d1776935ddd2f82e5d1c`
 
+The 2023 audit covered the same two contracts on Polygon PoS at commit `84ec9b53acc2fea1c75156c39ce33622cdc114e1`.
+
+## Audit Findings Summary
+
+**Smart contract audit, 1st (Nov 2023):**
+
+| Severity | Count | Status |
+|----------|-------|--------|
+| 🟠 Medium | 2 | ✅ Resolved |
+| 🟡 Low | 4 | ✅ Resolved |
+| ⚪ Gas | 1 | ✅ Resolved |
+
+**Smart contract audit, 2nd (Mar 2025):**
+
+| Severity | Count | Status |
+|----------|-------|--------|
+| 🟠 Medium | 8 | ✅ Resolved |
+| 🟡 Low | 4 | ✅ Resolved / Acknowledged |
+
+The 2025 review centered on the upgradeable proxy architecture: pause coverage across both contracts, configuration persistence through upgrades, settlement address validation, and settler controls. All Medium findings were resolved; one Low severity item on settlement amount validation was formally acknowledged.
+
 ## Audit Reports
 
-All reports are published with Immersve's consent.
+Both smart contract reports are published with Immersve's consent.
 
 - 📄 [Smart contract audit (2nd)](./Immersve-2nd-Smart-Contract-Audit-Report-Final-Report-v3.pdf)
-- 📄 [Smart contract audit (1st)](./Immersve-Smart-Contract-Audit-Report-Final-Report.pdf)
-- 📄 [Penetration test (3rd)](./Immersve-3rd-Penetration-Test-Report-Final-Report-v1.pdf)
+- 📄 [Smart contract audit (1st)](./Immersve-Smart-Contract-Audit-Final-Report.pdf)
 
 🌐 [View on hashlock.com](https://hashlock.com/audits/immersve)
 
@@ -61,4 +84,4 @@ Hashlock is a globally leading Web3 security firm headquartered in Australia, sp
 
 ---
 
-_Audits conducted by Hashlock Pty Ltd. These reports are published with the client's consent. For full disclaimers, methodology, and severity definitions, please refer to the complete PDFs._
+_Audits conducted by Hashlock Pty Ltd. The published reports are shared with the client's consent. For full disclaimers, methodology, and severity definitions, please refer to the complete PDFs._
