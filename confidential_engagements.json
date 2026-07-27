@@ -13,5 +13,29 @@
       "date": "June 2025",
       "confidential": true
     }
+  ],
+  "rakurai": [
+    {
+      "type": "Smart contract audit (Full Report; a redacted Public Report is published)",
+      "date": "December 2025",
+      "confidential": true
+    }
+  ],
+  "glue": [
+    {
+      "type": "Smart contract audit (Glue.net Vesting)",
+      "date": "November 2024",
+      "confidential": true
+    },
+    {
+      "type": "Smart contract audit (L1 Changes)",
+      "date": "October 2024",
+      "confidential": true
+    },
+    {
+      "type": "Smart contract audit (Aave GHO integration)",
+      "date": "July 2024",
+      "confidential": true
+    }
   ]
 }

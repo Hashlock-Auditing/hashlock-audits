@@ -294,6 +294,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**qerra**](./clients/qerra/)
 - [**Quant.Fun**](./clients/quant-fun/)
 - [**r/datadao**](./clients/rdatadao/) 🐛
+- [**Rakurai**](./clients/rakurai/)
 - [**Rank Trading**](./clients/rank-trading/)
 - [**RDDTOR**](./clients/rddtor/)
 - [**Rebase Finance**](./clients/rebase-finance/)
@@ -360,7 +361,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Zeus Exchange**](./clients/zeus-exchange/)
 - [**Zilliqa**](./clients/zilliqa/)
 
-_253 public audit engagements._
+_254 public audit engagements._
 <!-- AUTO:PUBLIC:END -->
 ---
 
@@ -383,7 +384,6 @@ The following projects have engaged Hashlock for security audits where the full 
 - [**Passphrase**](./clients/passphrase/)
 - [**peaq**](./clients/peaq/)
 - [**Potomac Capital Limited**](./clients/potomac-capital-limited/)
-- [**Rakurai**](./clients/rakurai/)
 - [**Redbelly Network**](./clients/redbelly-network/)
 - [**Rock Tournaments**](./clients/rock-tournaments/)
 - [**RPS Labs**](./clients/rps/)
@@ -397,7 +397,7 @@ The following projects have engaged Hashlock for security audits where the full 
 - [**Zapme**](./clients/zapme/)
 - [**Zenchain**](./clients/zenchain/)
 
-_27 NDA engagements._
+_26 NDA engagements._
 <!-- AUTO:NDA:END -->
 ---
 

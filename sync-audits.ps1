@@ -111,6 +111,12 @@ foreach ($slug in $slugs) {
 
     # ---------- Reconcile ----------
     $flags = @()
+    # Tier drift: audits.json says NDA but the site now links a public PDF (or vice versa)
+    $ajEntry = $aj | Where-Object { $_.slug -eq $slug } | Select-Object -First 1
+    if ($ajEntry) {
+        if ($ajEntry.tier -like 'TIER 2*' -and $status -eq 'PUBLIC') { $flags += "TIER_MISMATCH(json=NDA,site=PUBLIC)" }
+        if ($ajEntry.tier -like 'TIER 1*' -and $status -eq 'CONFIDENTIAL_ONLY') { $flags += "TIER_MISMATCH(json=PUBLIC,site=CONF)" }
+    }
     if ($p404) {
         if ($hasFolder) { $flags += "ORPHAN_LOCAL"; $orphan += $slug } else { $status = "P404" }
     } else {
