@@ -1,0 +1,47 @@
+# Weekly portfolio sync: checks hashlock.com for new/changed audits, downloads
+# missing public PDFs, and opens a Pull Request for review. Nothing reaches main
+# without Felipe approving the PR, so the human confirmation gate is preserved.
+#
+# Enable by committing this file. Runs Mondays 08:00 UTC and on manual dispatch.
+name: Sync audits with hashlock.com
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run sync (download missing public PDFs, update audits.json)
+        shell: pwsh
+        run: ./sync-audits.ps1 -Apply -UpdateAuditsJson
+
+      - name: Regenerate README and NDA index from audits.json
+        shell: pwsh
+        run: ./update-index.ps1
+
+      - name: Open PR if anything changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/sync-audits
+          title: "Portfolio sync: new public reports from hashlock.com"
+          commit-message: "Auto-sync: download new public report PDFs; update audits.json"
+          body: |
+            Automated weekly sync against hashlock.com (source of truth).
+
+            This PR contains newly downloaded public report PDFs and audits.json
+            additions only. READMEs are NOT auto-written: for each new client,
+            write the README (rich for public reports, engagement-only for
+            confidential) before or after merging, per HANDOFF rules.
+
+            Review the file list carefully. If a client's PDF disappeared from
+            the site (takedown), handle it manually. Nothing here removes files.
+          labels: portfolio-sync
