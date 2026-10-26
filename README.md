@@ -115,6 +115,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Aegis**](./clients/aegis/)
 - [**AgriDex**](./clients/agridex/)
 - [**AI Protocol**](./clients/ai-protocol/)
+- [**AIMA**](./clients/aima/)
 - [**Algem**](./clients/algem/)
 - [**Allfeat**](./clients/allfeat/)
 - [**Aqualis**](./clients/aqualis/)
@@ -146,8 +147,10 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**CereBree**](./clients/cerebree/)
 - [**Chedda Finance**](./clients/chedda-finance/)
 - [**Chirper AI**](./clients/chirper-ai/)
+- [**cNGN**](./clients/cngn/)
 - [**Coinsub**](./clients/coinsub/)
 - [**CoPump**](./clients/copump/)
+- [**Cortis**](./clients/cortis/)
 - [**Credbull**](./clients/credbull/)
 - [**CrossCurve**](./clients/crosscurve/)
 - [**Cryptaine**](./clients/cryptaine/)
@@ -174,6 +177,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Finceptor**](./clients/finceptor/)
 - [**Flamatech**](./clients/flamatech/)
 - [**FlareBank**](./clients/flarebank/)
+- [**Flazepad**](./clients/flazepad/)
 - [**Fluidity Money**](./clients/fluidity-money-audit/)
 - [**ForeGate**](./clients/foregate/)
 - [**Forte AUD**](./clients/forte-aud/)
@@ -205,6 +209,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Ithaca Protocol**](./clients/ithaca-protocol/)
 - [**IvyFi**](./clients/ivyfi/)
 - [**Jedai**](./clients/jedai/)
+- [**JetBit**](./clients/jetbit/)
 - [**Jubi DAO**](./clients/jubi/)
 - [**JuicyFi**](./clients/juicyfi/)
 - [**K613**](./clients/k613/)
@@ -212,6 +217,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Kingdomly**](./clients/kingdomly/)
 - [**Kirapay**](./clients/kirapay/)
 - [**Klima Protocol**](./clients/klima-protocol/)
+- [**Kron**](./clients/kron/)
 - [**Layer Labs**](./clients/layer-labs/)
 - [**Layer One X**](./clients/layer-one-x/)
 - [**LazyMog**](./clients/lazymog/)
@@ -245,6 +251,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Molecula**](./clients/molecula/)
 - [**Monstro**](./clients/monstro/)
 - [**Montage Token**](./clients/montage-token/)
+- [**Moonberg**](./clients/moonberg/)
 - [**Moonopol**](./clients/moonopol/)
 - [**Moria**](./clients/moria/)
 - [**MortgageFi**](./clients/mortgagefi/)
@@ -259,6 +266,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Neomi**](./clients/neomi/)
 - [**Nexa**](./clients/nexa/)
 - [**Nexus**](./clients/nexus/)
+- [**NLO**](./clients/nlo/)
 - [**Nodo**](./clients/nodo/)
 - [**Noon Capital**](./clients/noon-capital/)
 - [**NOTE Protocol**](./clients/note-protocol/)
@@ -268,6 +276,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**OpenGradient**](./clients/opengradient/)
 - [**OpenZK**](./clients/openzk/)
 - [**Orbis**](./clients/orbis/)
+- [**Orion Finance**](./clients/orion-finance/)
 - [**Orlyn**](./clients/orlyn/)
 - [**PandaPump**](./clients/pandapump/)
 - [**ParagonsDAO**](./clients/paragonsdao/) 🐛
@@ -291,8 +300,10 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Prophet Markets**](./clients/prophet-markets/)
 - [**Propto**](./clients/propto/)
 - [**Pruv Finance**](./clients/pruv-finance/)
+- [**Pyron**](./clients/pyron/)
 - [**qerra**](./clients/qerra/)
 - [**Quant.Fun**](./clients/quant-fun/)
+- [**Quantum Pools**](./clients/quantum-pools/)
 - [**r/datadao**](./clients/rdatadao/) 🐛
 - [**Rakurai**](./clients/rakurai/)
 - [**Rank Trading**](./clients/rank-trading/)
@@ -323,13 +334,16 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Stoneii**](./clients/stoneii/)
 - [**Superset**](./clients/superset/)
 - [**SwarmBase**](./clients/swarmbase/)
+- [**Swoobz**](./clients/swoobz/)
 - [**T-Rize**](./clients/t-rize/)
 - [**Talisman**](./clients/talisman/)
 - [**Tand3m**](./clients/tand3m/)
+- [**Tapir Money**](./clients/tapir-money/)
 - [**TapSwap**](./clients/tapswap/)
 - [**tBTC**](./clients/tbtc/)
 - [**Teneo**](./clients/teneo/)
 - [**Tenexium**](./clients/tenexium/)
+- [**Textile**](./clients/textile/)
 - [**The Winners Circle**](./clients/the-winners-circle/)
 - [**Together Fun**](./clients/together-fun/)
 - [**Tomcat**](./clients/tomcat/)
@@ -337,7 +351,9 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**U2U**](./clients/u2u/)
 - [**Ulalo**](./clients/ulalo/)
 - [**Umbrae**](./clients/umbrae/)
+- [**UNIT Technologies**](./clients/unit-technologies/)
 - [**Urbit Token**](./clients/urbit-token/)
+- [**USD8**](./clients/usd8/)
 - [**Vana**](./clients/vana/)
 - [**VanaTensor**](./clients/vanatensor/)
 - [**Veera**](./clients/veera/)
@@ -347,6 +363,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Virovita**](./clients/virovita/)
 - [**Voyager**](./clients/voyager/)
 - [**Vrine**](./clients/vrine/)
+- [**W3O**](./clients/w3o/)
 - [**Wayfinder**](./clients/wayfinder/)
 - [**World3.ai**](./clients/world3-ai/)
 - [**WORM**](./clients/worm/)
@@ -354,6 +371,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**XMAQUINA**](./clients/xmaquina/)
 - [**Yieldo**](./clients/yieldo/)
 - [**YKYR**](./clients/ykyr/)
+- [**Yo**](./clients/yo/)
 - [**YOM**](./clients/yom/)
 - [**Your Wallet**](./clients/your-wallet/)
 - [**Zero Edge**](./clients/zero-edge/)
@@ -361,7 +379,7 @@ _The full alphabetical list of public audit reports is preserved below for compl
 - [**Zeus Exchange**](./clients/zeus-exchange/)
 - [**Zilliqa**](./clients/zilliqa/)
 
-_254 public audit engagements._
+_272 public audit engagements._
 <!-- AUTO:PUBLIC:END -->
 ---
 
@@ -391,13 +409,14 @@ The following projects have engaged Hashlock for security audits where the full 
 - [**Sogni**](./clients/sogni/)
 - [**Space and Time**](./clients/space-and-time/)
 - [**SushiSwap**](./clients/sushi-swap/)
+- [**TagoCash**](./clients/tagocash/)
 - [**Tecnodes Network**](./clients/tecnodes-network/)
 - [**Topos**](./clients/topos/)
 - [**World Mobile**](./clients/world-mobile/)
 - [**Zapme**](./clients/zapme/)
 - [**Zenchain**](./clients/zenchain/)
 
-_26 NDA engagements._
+_27 NDA engagements._
 <!-- AUTO:NDA:END -->
 ---
 
